@@ -46,7 +46,7 @@ import Data.Bits (xor, (.&.))
 import Data.Serialize
 #else
 import Foreign.Ptr
-import Foreign.ForeignPtr.Unsafe (unsafeForeignPtrToPtr)
+import Foreign.ForeignPtr (unsafeForeignPtrToPtr)
 import Foreign.Storable
 import qualified Data.ByteString.Internal as B
 #endif
